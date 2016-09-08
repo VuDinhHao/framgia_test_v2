@@ -18,7 +18,7 @@ gem "carrierwave"
 gem "bootstrap-sass"
 gem "jquery-countdown-rails"
 gem "chatwork"
-gem "rails_admin"
+
 group :production do
   gem "unicorn"
 end
