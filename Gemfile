@@ -18,6 +18,12 @@ gem "carrierwave"
 gem "bootstrap-sass"
 gem "jquery-countdown-rails"
 gem "chatwork"
+gem "bootstrap-sass"
+gem "font-awesome-sass"
+
+source "https://rails-assets.org/" do
+  gem "rails-assets-adminlte"
+end
 group :production do
   gem "unicorn"
 end
